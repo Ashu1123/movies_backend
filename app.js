@@ -140,6 +140,11 @@ app.get("/movies",(req,res)=>{
         rating: 4,
         release: 2018
     },
+    {
+        name: "3 idiots",
+        rating: 5,
+        release: 2009
+    },
    ]
    res.send(data)
 }) 
